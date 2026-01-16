@@ -1,0 +1,40 @@
+# Enviroment & Secrets
+.env 
+.env.*
+*.pem 
+*.key
+
+#Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/ 
+venv/
+
+#Airflow
+airflow/logs/
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+
+#Datasets
+data/
+*.csv
+*.xlsx
+*.parquet
+
+#dbt
+target/
+dbt_packages/
+logs/
+
+#OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+#Notebooks & temp 
+.ipynb_checkpoints/
+*.log
